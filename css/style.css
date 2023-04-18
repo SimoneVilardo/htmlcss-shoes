@@ -2,4 +2,78 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* INIZIO HEADER */
+.container , .container-main{
+    position: relative;
+} 
+
+.row{
+    width: 100%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.link-header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 100;
+    padding-top: 50px;
+}
+
+.contenuto-header{
+    background-color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin:0 10px 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+.container-main{
+    width: 100%;
+    height: 100vh;
+}
+
+.contenuto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+}
+
+#testo-verde{
+    color: green;
+}
+
+#contenitore-rosso{
+    background-color: red;
+}
+
+#contenitore-verde{
+    background-color: green;
+}
+
+#contenitore-giallo{
+    background-color: yellow;
+}
+
+/* FINE MAIN */
